@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.mensagem {
+    background-color: #007bff;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.app-icon {
+    width: 30px;
+    height: 30px;
+    background-color: #25d366; /* Cor do ícone do WhatsApp */
+    border-radius: 50%;
+}
+
+.info {
+    margin-left: 10px;
+}
+
+.info h2, .info h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.info span {
+    color: #888;
+}
+
+.corpo {
+    margin-bottom: 10px;
+}
+
+.acoes {
+    display: flex;
+}
+
+.acoes button {
+    padding: 5px 10px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #007bff
+}
